@@ -1,0 +1,5 @@
+@EndUserText.label: 'Connection service Definition'
+define service Zconnections {
+  expose Z_I_connection as connection;
+  expose Z_I_flights_R  as flight;
+}
